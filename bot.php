@@ -1,25 +1,5 @@
 <?php
-$mail = new PHPMailer(); // create a new object
-$mail->IsSMTP(); // enable SMTP
-$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
-$mail->SMTPAuth = true; // authentication enabled
-$mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-$mail->Host = "smtp.gmail.com";
-$mail->Port = 465; // or 587
-$mail->IsHTML(true);
-$mail->Username = "momijikung@gmail.com";
-$mail->Password = "Taga2idG";
-$mail->SetFrom("momijikung@gmail.com");
-$mail->Subject = "Test";
-$mail->Body = "hello";
-$mail->AddAddress("s.waruth@gmail.com");
-
- if(!$mail->Send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
- } else {
-    echo "Message has been sent";
- }
-/*$access_token = '6KvcDg1TmB+xxy9b1l8pe/8rDrcH1za0RfqrULKsNbnGeuSlb4nPP+38fNajEn+dbpmAm3VLJjtER3crrvLV9Ch3EA7USZvlwPOGQKmxDm0LU8JY/e4LG2i5y6DpCQfNA2poAAB+rTM1vnHFqBg4sAdB04t89/1O/w1cDnyilFU=';
+$access_token = '6KvcDg1TmB+xxy9b1l8pe/8rDrcH1za0RfqrULKsNbnGeuSlb4nPP+38fNajEn+dbpmAm3VLJjtER3crrvLV9Ch3EA7USZvlwPOGQKmxDm0LU8JY/e4LG2i5y6DpCQfNA2poAAB+rTM1vnHFqBg4sAdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
 $content = file_get_contents('php://input');
@@ -66,4 +46,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo "OK";*/
+echo "OK";
