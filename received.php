@@ -26,6 +26,6 @@
 	if ($captcha_success->success==false) {
 		echo "<p>You are a bot! Go away!</p>";
 	} else if ($captcha_success->success==true) {
-		echo "<p>You are not not a bot!</p>";
+		echo "<p>You are not a bot!</p>";
 	}
 ?>
