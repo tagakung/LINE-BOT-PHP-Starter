@@ -24,8 +24,8 @@
 	//echo $verify;
 	$captcha_success=json_decode($verify);
 	if ($captcha_success->success==false) {
-		echo "<p>You are a bot! Go away!</p>";
+		echo "<p>Failed</p>";
 	} else if ($captcha_success->success==true) {
-		echo "<p>You are not a bot!</p>";
+		echo $verify;
 	}
 ?>
