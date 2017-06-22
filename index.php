@@ -4,7 +4,7 @@
      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
-    <form action="?" method="POST">
+    <form action="received.php" method="POST">
       <div class="g-recaptcha" data-sitekey="6LdLbiYUAAAAACjMIc4kms8yQAMV_NDz3j9nKyy-"></div>
       <br/>
       <input type="submit" value="Submit">
