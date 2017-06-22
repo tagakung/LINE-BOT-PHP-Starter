@@ -1,9 +1,17 @@
 <?php
    $response = $_POST["g-recaptcha-response"];
 	$url = 'https://www.google.com/recaptcha/api/siteverify';
+	if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+	    $ip = $_SERVER['HTTP_CLIENT_IP'];
+	} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+	    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+	} else {
+	    $ip = $_SERVER['REMOTE_ADDR'];
+	}
 	$data = array(
-		'secret' => 'YOUR_SECRET',
-		'response' => $_POST["g-recaptcha-response"]
+		'secret' => '6LdLbiYUAAAAADuT9e3I52YMdfMhbHBTZA5Z7uMP',
+		'response' => $_POST["g-recaptcha-response"],
+		'remoteip' => $ip
 	);
 	$options = array(
 		'http' => array (
