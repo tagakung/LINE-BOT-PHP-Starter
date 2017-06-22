@@ -13,10 +13,11 @@
 	);
 	$context  = stream_context_create($options);
 	$verify = file_get_contents($url, false, $context);
-	$captcha_success=json_decode($verify);
+	echo $verify;
+	/*$captcha_success=json_decode($verify);
 	if ($captcha_success->success==false) {
 		echo "<p>You are a bot! Go away!</p>";
 	} else if ($captcha_success->success==true) {
 		echo "<p>You are not not a bot!</p>";
-	}
+	}*/
 ?>
