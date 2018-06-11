@@ -1,13 +1,8 @@
 <html>
   <head>
-    <title>reCAPTCHA demo: Simple page</title>
-     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Landing page</title>
   </head>
   <body>
-    <form action="received.php" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LdLbiYUAAAAACjMIc4kms8yQAMV_NDz3j9nKyy-"></div>
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
+    <h3>Album to you</h3>
   </body>
 </html>
