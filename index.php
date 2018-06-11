@@ -8,6 +8,8 @@
     <meta name="description" content="ร้าน Album to you ขาย แฟ้มใส่รูป อัลบั้มใส่รูป BNK48 มูจิ Muji นากา Nakabayashi">
     <meta name="author" content="tagakung">
 
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    
     <title>Album to you</title>
 
     <!-- Bootstrap core CSS -->
@@ -209,7 +211,6 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
 
