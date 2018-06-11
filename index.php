@@ -58,7 +58,7 @@
         <div class="row h-100">
           <div class="col-lg-12 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">ร้านขาย Album to you<br>ขายแฟ้ม BNK48 ยี่ห้อต่างๆ เช่น มูจิ Muji นากา Nakabayashi</h1>
+              <h1 class="mb-5">Album to you<br>ร้านขาย แฟ้มใส่รูป อัลบั้มรูป BNK48<br>ยี่ห้อต่างๆ เช่น มูจิ Muji นากา Nakabayashi</h1>
               <a href="https://shopee.co.th/sharpu" class="btn btn-outline btn-xl js-scroll-trigger">Shop ผ่าน Shopee ได้เลย!</a>
             </div>
           </div>
