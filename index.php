@@ -58,8 +58,8 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+              <h1 class="mb-5">ร้านขาย Album to you<br>ขายแฟ้ม BNK48 ยี่ห้อต่างๆ เช่น มูจิ Muji นากา Nakabayashi</h1>
+              <a href="https://shopee.co.th/sharpu" class="btn btn-outline btn-xl js-scroll-trigger">Shop ผ่าน Shopee ได้เลย!</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
